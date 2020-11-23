@@ -5,11 +5,11 @@
  <div style="text-align: justify">
 El clasificador de perceptrones multicapa (MLPC) es un clasificador basado en la red neuronal artificial feedforward . MLPC consta de múltiples capas de nodos. Cada capa está completamente conectada a la siguiente capa de la red. Los nodos de la capa de entrada representan los datos de entrada. Todos los demás nodos mapean entradas a las salidas realizando una combinación lineal de las entradas con los pesos y el sesgo del nodo y aplicando una función de activación. Se puede escribir en forma de matriz para MLPC con capas de la siguiente manera: Los nodos en las capas intermedias usan la función sigmoidea (logística): Los nodos en la capa de salida usan la función softmax: El número de nodos en la capa de salida corresponde al número de clases.wbK+1
  
-<div/>
+</div>
  
- <div>
+<div>
 <p style = 'text-align:center;'>
-<img src = "C:\Users\filos\OneDrive\Imágenes\Captura1.PNG">
+<img src = "C:\Users\filos\OneDrive\Imágenes\Captura1.jpg">
 </p>
 </div>
 
