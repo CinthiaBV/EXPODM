@@ -16,6 +16,33 @@ N
 
 MLPC emplea retropropagación para aprender el modelo. Usamos la función de pérdida logística para la optimización y L-BFGS como rutina de optimización.
 
+#### Aplicaciones
+
+Los MLP son útiles en la investigación por su capacidad para resolver problemas estocásticamente, lo que a menudo permite soluciones aproximadas para problemas extremadamente complejos como la aproximación de aptitud.
+
+Los MLP son aproximadores de funciones universales, como lo muestra el teorema de Cybenko,  por lo que pueden usarse para crear modelos matemáticos mediante análisis de regresión. Como la clasificación es un caso particular de regresión cuando la variable de respuesta es categórica, los MLP son buenos algoritmos de clasificación.
+
+Algunas de sus Aplicaciones
+- Aprendizaje supervisado (mapeo de entrada / salida):
+
+- Clasificación (salidas discretas):
+
+- Diabetes en los indios Pima;
+
+- Sonar: Rocas vs Minas;
+
+- Regresión (salidas numéricas):
+
+- Cáncer de mama pronóstico;
+
+- Brazo robótico Pumadyn;
+
+- Aprendizaje por refuerzo (el resultado no se conoce perfectamente):
+
+- Control (por ejemplo, conducción autónoma);
+
+- Juego (por ejemplo, damas);
+
 
 
 
