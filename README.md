@@ -8,7 +8,7 @@
 
  
  
- ![]/(Image/Capture2.PNG)
+ ![](/Image/Capture2.PNG)
 
 
 N
