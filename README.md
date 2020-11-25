@@ -9,7 +9,7 @@ El clasificador de perceptrones multicapa (MLPC) es un clasificador basado en la
  
  <div style="text-align: center"
  
- ![](Capture2.png)
+ ![](Capture2.PNG)
 </div>
 
 N
