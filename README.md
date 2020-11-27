@@ -33,6 +33,9 @@ MLPC emplea retropropagación para aprender el modelo. Usamos la función de pé
 
 El número de nodos N, en la capa de salida, corresponde al número de clases.
 
+#### Limitaciones del perceptron
+<div align="justify">Se debe tener en cuenta que no siempre el algoritmo de entrenamiento del perceptrón podrá converger hacia un error nulo.De hecho el perceptrón es incapaz de converger en aquellad funciones linealmente separables.
+
 
 
 #### Aplicaciones
