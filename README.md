@@ -38,6 +38,8 @@ El número de nodos N, en la capa de salida, corresponde al número de clases.
 
 ![Margen](Margen.PNG)
 
+<div align="justify">En la imagen 3.5 se muestra el caso donde el perceptrón es un buen clasficiador y otro caso donde el percpetrón no puede separar a los elemtos en dos categorias.Los puntos (x1,x2) corresponden a la intersección de 2 entradas x1 y x2.
+
 #### Aplicaciones
 
 Los MLP son útiles en la investigación por su capacidad para resolver problemas estocásticamente, lo que a menudo permite soluciones aproximadas para problemas extremadamente complejos como la aproximación de aptitud.
