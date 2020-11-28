@@ -7,7 +7,7 @@
 
  
  
- ![](/Image/rn.JPG)
+ ![](/Image/rn.jpg)
 
 
 
