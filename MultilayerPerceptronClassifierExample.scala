@@ -34,7 +34,7 @@ import org.apache.spark.sql.SparkSession
 object MultilayerPerceptronClassifierExample {
 
 // Se define la funcion main la cual tiene como parametro un Array de tipo string
-  def main(args: Array[String]): Unit = {
+  def main(): Unit = {
     // Se crea el objeto de la clase SparkSession, y a la app se le da el nombre de
     // MultilayerPerceptronClassifierExample
     val spark = SparkSession
