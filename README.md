@@ -40,6 +40,34 @@ El número de nodos N, en la capa de salida, corresponde al número de clases.
 
 <div align="justify">En la imagen 3.5 se muestra el caso donde el perceptrón es un buen clasficiador y otro caso donde el percpetrón no puede separar a los elemtos en dos categorias.Los puntos (x1,x2) corresponden a la intersección de 2 entradas x1 y x2.
 
+#### Aceleración del proceso de aprendizaje 
+El proceso de entrenamiento de una red multicapa suele requerir un gran esfuerzo
+computacional que va a ser proporcional al resultado de multiplicar el número de pesos
+sinápticos de la red por el número de épocas de entrenamiento y por el número de patrones de
+entrenamiento utilizados en cada época. Se han propuesto varios métodos para acelerar el
+proceso de convergencia de la red. Veamos alguno de ellos. 
+
+- 1 El algoritmo Quickprop.
+
+Este algoritmo fue propuesto por Fahlman (1988) y se basa en el método de Newton. Consiste
+en aproximar la función de error por una parábola en un entorno de cada punto.
+
+- 2 El método del gradiente conjugado.
+
+El método del gradiente conjugado también se puede aplicar para obtener los pesos sinápticos
+del perceptrón multicapa que minimizan la función de error. En nuevo vector de pesos
+sinápticos de la unidad de proceso se determinan de forma iterativa
+
+- 3 Algoritmos de aprendizaje de segundo orden: Modificación de LevenbergMaquardt. 
+
+El algoritmo de Levenberg-Maquardt es una técnica de segundo orden para resolver
+problemas de optimización que suele ser más eficiente que el método clásico del descenso por
+gradiente aunque requiere más memoria. Hagan y Menhaj (1994) lo han aplicado a la
+determinación de los pesos sinápticos en un Perceptrón Multicapa. Si el Perceptrón tiene N
+unidades de salida entonces se tratará de minimizar la función 
+
+
+
 #### Aplicaciones
 
 Los MLP son útiles en la investigación por su capacidad para resolver problemas estocásticamente, lo que a menudo permite soluciones aproximadas para problemas extremadamente complejos como la aproximación de aptitud.
