@@ -47,18 +47,18 @@ sinápticos de la red por el número de épocas de entrenamiento y por el númer
 entrenamiento utilizados en cada época. Se han propuesto varios métodos para acelerar el
 proceso de convergencia de la red. Veamos alguno de ellos. 
 
-- 1. El algoritmo Quickprop.
+ 1. El algoritmo Quickprop.
 
 Este algoritmo fue propuesto por Fahlman (1988) y se basa en el método de Newton. Consiste
 en aproximar la función de error por una parábola en un entorno de cada punto.
 
-- 2. El método del gradiente conjugado.
+ 2. El método del gradiente conjugado.
 
 El método del gradiente conjugado también se puede aplicar para obtener los pesos sinápticos
 del perceptrón multicapa que minimizan la función de error. En nuevo vector de pesos
 sinápticos de la unidad de proceso se determinan de forma iterativa
 
-- 3. Algoritmos de aprendizaje de segundo orden: Modificación de LevenbergMaquardt. 
+ 3. Algoritmos de aprendizaje de segundo orden: Modificación de LevenbergMaquardt. 
 
 El algoritmo de Levenberg-Maquardt es una técnica de segundo orden para resolver
 problemas de optimización que suele ser más eficiente que el método clásico del descenso por
